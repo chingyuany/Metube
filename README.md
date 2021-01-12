@@ -6,4 +6,4 @@ Technical report has the detail description for the all webpages.
 This is a video sharing website which provide some other 
 features compare to YouTube website. This website constructed with HTML, CSS,
 jQuery, PHP, MySQL, Apache, Bootstrap webserver technique.
-![image](https://github.com/chingyuany/metube/blob/master/assets/imgs/SystemDesign.png)
+![image](https://github.com/chingyuany/Metube/blob/master/Source%20code/assets/imgs/SystemDesign.png)
