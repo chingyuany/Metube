@@ -145,10 +145,15 @@ class showAllVideo
                 $query->bindParam(':mainuser', $uploaded_by);
                 $query->execute();
                 $dbresult = $query->fetch(PDO::FETCH_ASSOC);
-                if (strcmp($dbresult['groupname'], 'friends')) {
+               if (!$dbresult){
+                    continue;
+                }
+                  if (strcmp($dbresult['groupname'], 'friends')) {
                     $key = array_search($value, $videowithblock);
                     array_splice($videowithblock, $key, 1);
+                
                 }
+                
             }
         }
         return $videowithblock;
